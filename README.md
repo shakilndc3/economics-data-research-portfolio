@@ -6,7 +6,7 @@ This repository documents my ongoing development of practical skills in data man
 
 ## Current learning
 
-### Day 2 — Excel Data Handling
+## Day 2 — Excel Data Handling
 
 **Skills practised:**
 - Opening and saving CSV and Excel files
@@ -26,11 +26,10 @@ This repository documents my ongoing development of practical skills in data man
 - Applied economics research using verified public datasets
 - Research documentation and reproducible workflows
 
-## Status
-
+### Status
 This portfolio is a work in progress. Projects will be added as I complete and verify them.
 
-# Day 3 Progress Log — Excel Statistical Analysis
+## Day 3 Progress Log — Excel Statistical Analysis
 
 **Portfolio:** Economics, Data Analysis & Research  
 **Learning stage:** Day 3  
@@ -78,11 +77,11 @@ Example of a conditional classification formula:
 
 Day 3 strengthened the connection between spreadsheet skills and introductory quantitative analysis. The main lesson was not only how to calculate descriptive statistics in Excel, but also how to explain what those statistics show—and what they cannot establish.
 
-### Day 4 — Excel Conditional Analysis
+# Day 4 — Excel Conditional Analysis
 
 Practised Excel's `COUNTIF`, `SUMIF`, `COUNTIFS`, `SUMIFS`, and `XLOOKUP` functions using a synthetic digital-connectivity dataset. Analysed regional income, internet users, and internet-access records; applied multiple criteria; retrieved values using IDs; and organised results in a separate analysis worksheet.
 
-## 2. Functions practised
+## Functions practised
 
 | Function | What it does | Example from this exercise |
 |---|---|---|
@@ -94,7 +93,7 @@ Practised Excel's `COUNTIF`, `SUMIF`, `COUNTIFS`, `SUMIFS`, and `XLOOKUP` functi
 
 **Key learning:** Using conditional formulas to answer structured data questions, validate results, and prepare for descriptive statistics and research-oriented data analysis.
 
-**Key learning notes
+## Key learning notes
 - `COUNTIF` and `SUMIF` handle one condition; `COUNTIFS` and `SUMIFS` handle multiple conditions.
 - In `SUMIF`, the criteria range and sum range must align row by row.
 - In `SUMIFS`, the sum range comes first, followed by each criteria range and criterion.
@@ -104,7 +103,7 @@ Practised Excel's `COUNTIF`, `SUMIF`, `COUNTIFS`, `SUMIFS`, and `XLOOKUP` functi
 
 **Tools:** Microsoft Excel 
 
-##Reflection
+## Reflection
 I practised turning questions about regions, income, internet users, and access into reproducible Excel formulas. The results provide a foundation for later descriptive analysis and for repeating similar calculations in R.
 
 ## Data and interpretation caveat
