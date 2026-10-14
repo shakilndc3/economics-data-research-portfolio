@@ -78,3 +78,34 @@ Example of a conditional classification formula:
 
 Day 3 strengthened the connection between spreadsheet skills and introductory quantitative analysis. The main lesson was not only how to calculate descriptive statistics in Excel, but also how to explain what those statistics show—and what they cannot establish.
 
+### Day 4 — Excel Conditional Analysis
+
+Practised Excel's `COUNTIF`, `SUMIF`, `COUNTIFS`, `SUMIFS`, and `XLOOKUP` functions using a synthetic digital-connectivity dataset. Analysed regional income, internet users, and internet-access records; applied multiple criteria; retrieved values using IDs; and organised results in a separate analysis worksheet.
+
+## 2. Functions practised
+
+| Function | What it does | Example from this exercise |
+|---|---|---|
+| `COUNTIF` | Counts cells matching one condition | `=COUNTIF(B2:B11,"Dhaka")` |
+| `SUMIF` | Adds values matching one condition | `=SUMIF(B2:B11,"Dhaka",D2:D11)` |
+| `COUNTIFS` | Counts records matching multiple conditions | `=COUNTIFS(B2:B11,"Chattogram",E2:E11,"Yes")` |
+| `SUMIFS` | Adds values matching multiple conditions | `=SUMIFS(D2:D11,B2:B11,"Chattogram",E2:E11,"Yes")` |
+| `XLOOKUP` | Finds an identifier and returns a related value | `=XLOOKUP(104,A2:A11,D2:D11,"Not Found")` |
+
+**Key learning:** Using conditional formulas to answer structured data questions, validate results, and prepare for descriptive statistics and research-oriented data analysis.
+
+**Key learning notes
+- `COUNTIF` and `SUMIF` handle one condition; `COUNTIFS` and `SUMIFS` handle multiple conditions.
+- In `SUMIF`, the criteria range and sum range must align row by row.
+- In `SUMIFS`, the sum range comes first, followed by each criteria range and criterion.
+- `XLOOKUP` can return a value from a different column using an ID, and its optional not-found argument can make missing matches explicit.
+- Separating raw data from an `ANALYSIS` sheet makes calculations easier to review and present.
+- Currency formatting changes how a numeric result is displayed; it does not change the underlying value.
+
+**Tools:** Microsoft Excel 
+
+##Reflection
+I practised turning questions about regions, income, internet users, and access into reproducible Excel formulas. The results provide a foundation for later descriptive analysis and for repeating similar calculations in R.
+
+## Data and interpretation caveat
+The dataset is synthetic and contains only ten records. These results demonstrate Excel techniques; they must not be interpreted as evidence about actual internet use, household income, or regional conditions in Bangladesh.
