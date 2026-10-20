@@ -111,14 +111,14 @@ I practised turning questions about regions, income, internet users, and access 
 The dataset is synthetic and contains only ten records. These results demonstrate Excel techniques; they must not be interpreted as evidence about actual internet use, household income, or regional conditions in Bangladesh.
 
 
-##Day 5 Progress Log — Excel, Data Analysis & Research
+## Day 5 Progress Log — Excel, Data Analysis & Research
 
-###Project 1: ISP Customer Analysis
+### Project 1: ISP Customer Analysis
 
 Objective
 Practise summarising customer data and answering business questions using Excel PivotTables and charts.
 
-###Work completed
+### Work completed
 
 Organised a 20-record fictional ISP customer dataset.
 Created a PivotTable comparing Active and Cancelled customers by region.
@@ -128,7 +128,7 @@ Created charts to visualise regional customer status, bill values by plan, and a
 Wrote findings, interpretations, and limitations for the analyses.
 Reviewed chart design to ensure that totals, averages, and counts were not misleadingly combined.
 
-###Key analytical lessons
+### Key analytical lessons
 
 PivotTable fields must match the research or business question.
 Counts, sums, and averages answer different questions.
@@ -136,12 +136,12 @@ Chart titles, axes, units, and selected data ranges affect interpretation.
 Descriptive patterns do not establish causation.
 Fictional practice data demonstrate analytical skills but cannot support claims about actual ISP performance.
 
-##Project 2: World Bank Internet Use Analysis — 2019
+## Project 2: World Bank Internet Use Analysis — 2019
 
 Objective
 Use a published international dataset to compare Internet-use percentages across World Bank geographic regions.
 
-###Data source
+### Data source
 Provider: World Bank
 Dataset: World Development Indicators
 Indicator: IT.NET.USER.ZS
@@ -149,7 +149,7 @@ Measure: Individuals using the Internet (% of population)
 Reference year: 2019
 Source: https://data.worldbank.org/indicator/IT.NET.USER.ZS
 
-###Work completed
+### Work completed
 
 Reviewed the downloaded World Bank data and country metadata.
 Created a cleaned worksheet with Country Name, Country Code, Region, and Internet Use (%).
@@ -159,7 +159,7 @@ Developed inclusion rules to distinguish valid observations from records exclude
 Designed PivotTable analyses for regional averages, variation between countries, and country-level comparisons.
 Planned visualisations and drafted interpretation structures covering findings, meaning, and limitations.
 
-###Skills practised
+### Skills practised
 
 Excel for the web
 PivotTables and PivotCharts
@@ -170,6 +170,6 @@ Chart selection and interpretation
 Research-question formulation
 Documentation and reproducibility
 
-###Reflection
+### Reflection
 
 Day 5 connected spreadsheet skills with practical business questions and a public-data research exercise. The main lesson was that reliable analysis requires more than producing a chart: the source data, inclusion rules, calculations, and limitations must also be clear.
