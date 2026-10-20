@@ -77,7 +77,7 @@ Example of a conditional classification formula:
 
 Day 3 strengthened the connection between spreadsheet skills and introductory quantitative analysis. The main lesson was not only how to calculate descriptive statistics in Excel, but also how to explain what those statistics show—and what they cannot establish.
 
-# Day 4 — Excel Conditional Analysis
+## Day 4 — Excel Conditional Analysis
 
 Practised Excel's `COUNTIF`, `SUMIF`, `COUNTIFS`, `SUMIFS`, and `XLOOKUP` functions using a synthetic digital-connectivity dataset. Analysed regional income, internet users, and internet-access records; applied multiple criteria; retrieved values using IDs; and organised results in a separate analysis worksheet.
 
@@ -106,5 +106,70 @@ Practised Excel's `COUNTIF`, `SUMIF`, `COUNTIFS`, `SUMIFS`, and `XLOOKUP` functi
 ## Reflection
 I practised turning questions about regions, income, internet users, and access into reproducible Excel formulas. The results provide a foundation for later descriptive analysis and for repeating similar calculations in R.
 
+
 ## Data and interpretation caveat
 The dataset is synthetic and contains only ten records. These results demonstrate Excel techniques; they must not be interpreted as evidence about actual internet use, household income, or regional conditions in Bangladesh.
+
+
+##Day 5 Progress Log — Excel, Data Analysis & Research
+
+###Project 1: ISP Customer Analysis
+
+Objective
+Practise summarising customer data and answering business questions using Excel PivotTables and charts.
+
+###Work completed
+
+Organised a 20-record fictional ISP customer dataset.
+Created a PivotTable comparing Active and Cancelled customers by region.
+Summarised total monthly bill values and customer counts by subscription plan.
+Compared average monthly bills and customer counts by acquisition channel.
+Created charts to visualise regional customer status, bill values by plan, and average bills by acquisition channel.
+Wrote findings, interpretations, and limitations for the analyses.
+Reviewed chart design to ensure that totals, averages, and counts were not misleadingly combined.
+
+###Key analytical lessons
+
+PivotTable fields must match the research or business question.
+Counts, sums, and averages answer different questions.
+Chart titles, axes, units, and selected data ranges affect interpretation.
+Descriptive patterns do not establish causation.
+Fictional practice data demonstrate analytical skills but cannot support claims about actual ISP performance.
+
+##Project 2: World Bank Internet Use Analysis — 2019
+
+Objective
+Use a published international dataset to compare Internet-use percentages across World Bank geographic regions.
+
+###Data source
+Provider: World Bank
+Dataset: World Development Indicators
+Indicator: IT.NET.USER.ZS
+Measure: Individuals using the Internet (% of population)
+Reference year: 2019
+Source: https://data.worldbank.org/indicator/IT.NET.USER.ZS
+
+###Work completed
+
+Reviewed the downloaded World Bank data and country metadata.
+Created a cleaned worksheet with Country Name, Country Code, Region, and Internet Use (%).
+Used country metadata and XLOOKUP to retrieve regional classifications.
+Identified regional aggregates, missing Internet-use values, and missing region classifications.
+Developed inclusion rules to distinguish valid observations from records excluded from the regional analysis.
+Designed PivotTable analyses for regional averages, variation between countries, and country-level comparisons.
+Planned visualisations and drafted interpretation structures covering findings, meaning, and limitations.
+
+###Skills practised
+
+Excel for the web
+PivotTables and PivotCharts
+Data cleaning and validation
+XLOOKUP and metadata matching
+Descriptive statistics
+Chart selection and interpretation
+Research-question formulation
+Documentation and reproducibility
+
+###Reflection
+
+Day 5 connected spreadsheet skills with practical business questions and a public-data research exercise. The main lesson was that reliable analysis requires more than producing a chart: the source data, inclusion rules, calculations, and limitations must also be clear.
