@@ -1,175 +1,60 @@
-# Economics, Data Analysis & Research Portfolio
+# Study Abroad 2027 — Research and Data Skills Portfolio
 
-## About this portfolio
+This repository documents practical learning and profile-building work for a future master's application. The current focus is research foundations, data literacy, Excel, and a preliminary study of digital connectivity and cable TV businesses in Bangladesh.
 
-This repository documents my ongoing development of practical skills in data management, quantitative analysis, and economics research.
+## Current project
 
-## Current learning
+**Project ID:** `BD-DIGITAL-01`  
+**Working topic:** Digital connectivity and the transformation of cable TV businesses in Bangladesh.
 
-## Day 2 — Excel Data Handling
+**Preliminary research question:** What factors are associated with declining cable TV subscriptions among local providers in Bangladesh?
 
-**Skills practised:**
-- Opening and saving CSV and Excel files
-- Formatting spreadsheet data
-- Sorting and filtering records
-- Checking for missing values and duplicate records
-- Documenting a data workflow
+This is an exploratory research idea. The repository does not claim a completed paper, publication, causal finding, or validated provider-level dataset.
 
-**Dataset:** Synthetic digital connectivity data created for practice.
+## Repository contents
 
-**Important limitation:** The dataset is illustrative and does not represent verified statistics about Bangladesh.
-
-## Future projects
-
-- Excel data cleaning and exploratory analysis
-- Statistical analysis using R
-- Applied economics research using verified public datasets
-- Research documentation and reproducible workflows
-
-### Status
-This portfolio is a work in progress. Projects will be added as I complete and verify them.
-
-## Day 3 Progress Log — Excel Statistical Analysis
-
-**Portfolio:** Economics, Data Analysis & Research  
-**Learning stage:** Day 3  
-**Project:** Descriptive statistics using Excel  
-**Dataset:** Synthetic household digital-connectivity practice data  
-**Status:** Completed
-
----
-
-## 1. Learning objectives
-
-The objective of Day 3 was to move from basic spreadsheet data handling to introductory statistical analysis in Microsoft Excel. The work focused on calculating summary statistics, applying a conditional formula, and interpreting results cautiously.
-
-## 2. Skills practised
-
-- Calculating totals with `SUM`.
-- Calculating arithmetic means with `AVERAGE`.
-- Counting numeric observations with `COUNT`.
-- Identifying minimum and maximum values with `MIN` and `MAX`.
-- Calculating the median with `MEDIAN`.
-- Applying a simple logical condition with `IF`.
-- Organising summary results in a separate worksheet.
-- Interpreting descriptive statistics and documenting dataset limitations.
-
-## 4. Excel formulas used
-
-The following examples assume the monthly income values are in cells `B2:B13`. Adjust the cell references if the workbook layout differs.
-
-| Measure | Excel formula | Result |
-|---|---|---:|
-| Total monthly income | `=SUM(B2:B13)` | BDT 367,000 |
-| Mean monthly income | `=AVERAGE(B2:B13)` | BDT 30,583.33 |
-| Number of numeric observations | `=COUNT(B2:B13)` | 12 |
-| Minimum monthly income | `=MIN(B2:B13)` | BDT 15,000 |
-| Maximum monthly income | `=MAX(B2:B13)` | BDT 52,000 |
-| Median monthly income | `=MEDIAN(B2:B13)` | BDT 29,000 |
-| Income range | `=MAX(B2:B13)-MIN(B2:B13)` | BDT 37,000 |
-
-Example of a conditional classification formula:
-
-```excel
-=IF(B2>=30000,"At/above 30,000","Below 30,000")
+```text
+.
+├── README.md
+├── DAY_06_Progress_Log.md
+└── data/
+    └── (add only sanitized, source-attributed, non-sensitive datasets)
 ```
-## 8. Reflection
 
-Day 3 strengthened the connection between spreadsheet skills and introductory quantitative analysis. The main lesson was not only how to calculate descriptive statistics in Excel, but also how to explain what those statistics show—and what they cannot establish.
+The profile tracker is maintained separately as a working record. Do not publish personal academic documents or sensitive information in this repository.
 
-## Day 4 — Excel Conditional Analysis
+## Day 6 work
 
-Practised Excel's `COUNTIF`, `SUMIF`, `COUNTIFS`, `SUMIFS`, and `XLOOKUP` functions using a synthetic digital-connectivity dataset. Analysed regional income, internet users, and internet-access records; applied multiple criteria; retrieved values using IDs; and organised results in a separate analysis worksheet.
+- Reviewed World Bank WDI indicator `IT.NET.USER.ZS` for Bangladesh.
+- Interpreted the 2024 observation recorded in the workbook as 53.4217% of the population.
+- Identified the World Bank WDI as publisher and ITU as the underlying source organization.
+- Checked AMTOB July 2026 subscription arithmetic.
+- Drafted a research question, hypothesis, dependent variable, independent variable and potential controls.
+- Documented measurement limitations and the need for provider-level data.
 
-## Functions practised
+See [`DAY_06_Progress_Log.md`](DAY_06_Progress_Log.md) for details.
 
-| Function | What it does | Example from this exercise |
-|---|---|---|
-| `COUNTIF` | Counts cells matching one condition | `=COUNTIF(B2:B11,"Dhaka")` |
-| `SUMIF` | Adds values matching one condition | `=SUMIF(B2:B11,"Dhaka",D2:D11)` |
-| `COUNTIFS` | Counts records matching multiple conditions | `=COUNTIFS(B2:B11,"Chattogram",E2:E11,"Yes")` |
-| `SUMIFS` | Adds values matching multiple conditions | `=SUMIFS(D2:D11,B2:B11,"Chattogram",E2:E11,"Yes")` |
-| `XLOOKUP` | Finds an identifier and returns a related value | `=XLOOKUP(104,A2:A11,D2:D11,"Not Found")` |
+## Data sources
 
-**Key learning:** Using conditional formulas to answer structured data questions, validate results, and prepare for descriptive statistics and research-oriented data analysis.
+- [World Bank — Individuals using the Internet (% of population), Bangladesh](https://data.worldbank.org/indicator/IT.NET.USER.ZS?locations=BD)
+- [World Bank WDI indicator metadata](https://databank.worldbank.org/metadataglossary/world-development-indicators/series/IT.NET.USER.ZS)
+- [ITU DataHub](https://datahub.itu.int/)
+- [AMTOB industry statistics](https://www.amtob.org.bd/home/industrystatics)
 
-## Key learning notes
-- `COUNTIF` and `SUMIF` handle one condition; `COUNTIFS` and `SUMIFS` handle multiple conditions.
-- In `SUMIF`, the criteria range and sum range must align row by row.
-- In `SUMIFS`, the sum range comes first, followed by each criteria range and criterion.
-- `XLOOKUP` can return a value from a different column using an ID, and its optional not-found argument can make missing matches explicit.
-- Separating raw data from an `ANALYSIS` sheet makes calculations easier to review and present.
-- Currency formatting changes how a numeric result is displayed; it does not change the underlying value.
+Always record the retrieval date, indicator definition, unit, geographic scope and source when adding data.
 
-**Tools:** Microsoft Excel 
+## Interpretation and research integrity
 
-## Reflection
-I practised turning questions about regions, income, internet users, and access into reproducible Excel formulas. The results provide a foundation for later descriptive analysis and for repeating similar calculations in R.
+- Internet users are not the same as internet subscriptions.
+- Internet-use prevalence does not measure streaming-video use.
+- A national increase in internet use and a cable TV decline, if both observed, do not by themselves establish causation.
+- Do not combine people-based percentages and subscription counts as if they were the same measure.
+- Distinguish exploratory hypotheses from findings supported by analysis.
 
+## Privacy
 
-## Data and interpretation caveat
-The dataset is synthetic and contains only ten records. These results demonstrate Excel techniques; they must not be interpreted as evidence about actual internet use, household income, or regional conditions in Bangladesh.
+Do not commit passports, certificates, transcripts, recommendation letters, visa documents, personal contact details, private business records, credentials, or unredacted personal data. Keep raw files with sensitive or restricted information outside the public repository.
 
+## Learning record
 
-## Day 5 Progress Log — Excel, Data Analysis & Research
-
-### Project 1: ISP Customer Analysis
-
-Objective
-Practise summarising customer data and answering business questions using Excel PivotTables and charts.
-
-### Work completed
-
-Organised a 20-record fictional ISP customer dataset.
-Created a PivotTable comparing Active and Cancelled customers by region.
-Summarised total monthly bill values and customer counts by subscription plan.
-Compared average monthly bills and customer counts by acquisition channel.
-Created charts to visualise regional customer status, bill values by plan, and average bills by acquisition channel.
-Wrote findings, interpretations, and limitations for the analyses.
-Reviewed chart design to ensure that totals, averages, and counts were not misleadingly combined.
-
-### Key analytical lessons
-
-PivotTable fields must match the research or business question.
-Counts, sums, and averages answer different questions.
-Chart titles, axes, units, and selected data ranges affect interpretation.
-Descriptive patterns do not establish causation.
-Fictional practice data demonstrate analytical skills but cannot support claims about actual ISP performance.
-
-## Project 2: World Bank Internet Use Analysis — 2019
-
-Objective
-Use a published international dataset to compare Internet-use percentages across World Bank geographic regions.
-
-### Data source
-Provider: World Bank
-Dataset: World Development Indicators
-Indicator: IT.NET.USER.ZS
-Measure: Individuals using the Internet (% of population)
-Reference year: 2019
-Source: https://data.worldbank.org/indicator/IT.NET.USER.ZS
-
-### Work completed
-
-Reviewed the downloaded World Bank data and country metadata.
-Created a cleaned worksheet with Country Name, Country Code, Region, and Internet Use (%).
-Used country metadata and XLOOKUP to retrieve regional classifications.
-Identified regional aggregates, missing Internet-use values, and missing region classifications.
-Developed inclusion rules to distinguish valid observations from records excluded from the regional analysis.
-Designed PivotTable analyses for regional averages, variation between countries, and country-level comparisons.
-Planned visualisations and drafted interpretation structures covering findings, meaning, and limitations.
-
-### Skills practised
-
-Excel for the web
-PivotTables and PivotCharts
-Data cleaning and validation
-XLOOKUP and metadata matching
-Descriptive statistics
-Chart selection and interpretation
-Research-question formulation
-Documentation and reproducibility
-
-### Reflection
-
-Day 5 connected spreadsheet skills with practical business questions and a public-data research exercise. The main lesson was that reliable analysis requires more than producing a chart: the source data, inclusion rules, calculations, and limitations must also be clear.
+A separate `Profile_Building_Tracker_2027.xlsx` records progress. Days 1–5 are marked as reported completed but their individual activities, dates, hours and artifacts have not yet been verified from the available record. Hours are not invented.
