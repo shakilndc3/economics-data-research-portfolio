@@ -11,15 +11,6 @@ This repository documents practical learning and profile-building work for a fut
 
 This is an exploratory research idea. The repository does not claim a completed paper, publication, causal finding, or validated provider-level dataset.
 
-## Repository contents
-
-```text
-.
-├── README.md
-├── DAY_06_Progress_Log.md
-└── data/
-    └── (add only sanitized, source-attributed, non-sensitive datasets)
-```
 
 The profile tracker is maintained separately as a working record. Do not publish personal academic documents or sensitive information in this repository.
 
